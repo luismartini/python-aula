@@ -1,0 +1,19 @@
+"""
+Verificar/Validar um CPF
+
+Precisa-se verificar os dois últimos dígitos para validar o CPF.
+
+278.150.508-08
+
+2 * 10      #   2 * 11
+7 * 9       #   7 * 10
+8 * 8       #   8 * 9
+1 * 7       #   1 * 8
+5 * 5       #   5 * 7
+8 * 4       #   0 * 6
+5 * 3       #   5 * 5
+0 * 2       #   0 * 4
+            #   8 * 3
+            #   0 * 2
+
+"""
