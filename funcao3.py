@@ -50,11 +50,13 @@ def func(*args, **kwargs):  #kwargs -> keywords arguments
     # Luís Martini
     idade = kwargs.get('idade')
     
+    #idade = kwargs['idade]
+    #print(idade)
+    
     if idade is not None:
         print(idade)
     else:
         print('Idade não existe.')
-    
     
 lista = [1,2,3,4,5]
 lista2 = [10,20,30,40,50]
