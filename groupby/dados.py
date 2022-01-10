@@ -30,7 +30,9 @@ for agrupamentos, valorAgregado in alunosAgrupados:
     for aluno in valorAgregado: #va1:
         print(f"{c}-{aluno['nome']}")
         c += 1
-
+    
+    quantidade = len(list((aluno)))
+    print(f'{quantidade} alunos que tirar nota {agrupamentos}')
 
     # for aluno, valorAgrupado in notasAgrupadas:
     #     va1, va2 = tee(valorAgrupado)
